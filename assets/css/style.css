@@ -8,6 +8,21 @@
 img {
   max-width: 100%;
 }
+body {
+  background-color: hsl(185, 41%, 84%);
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+#wrapper {
+  margin-top: 2em;
+}
+#inner-container {
+  background-color: #fff;
+  border-top-right-radius: 1.2em;
+  border-top-left-radius: 1.2em;
+}
 /* ATTRIBUTION STYLING */
 .attribution {
   font-size: 11px;
