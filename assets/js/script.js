@@ -167,3 +167,14 @@ btnReset.addEventListener("click", function () {
   peopleEL.value = "";
   inputCustomEL.value = "";
 });
+
+billInputEL.addEventListener("click", function () {
+  bill = Number(billInputEL.value);
+  percent = Number(inputCustomEL.value) / 100;
+  // console.log(bill);
+  if (!peopleEL.value) {
+    noPeopleValue();
+  } else {
+    peopleValue();
+  }
+});
